@@ -20,9 +20,15 @@ pip3 install pygrok
 
 
 # How to run
+
+Run it and save its output to a file:
 ```sh
-python3 bbl2bib.py bibitem.tex
-python3 bbl2bib.py bibitem-medium.tex -d > bibitem.bib
+python3 bbl2bib.py samples/bibitem-medium.tex > bibitem.bib
+```
+
+Run with verbose debug output:
+```sh
+python3 bbl2bib.py samples/bibitem.tex -d
 ```
 
 
