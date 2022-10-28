@@ -15,7 +15,7 @@ pip install -r requirements.txt
 or
 
 ```sh
-pip3 install pygrok
+pip3 install pygrok ply
 ```
 
 
